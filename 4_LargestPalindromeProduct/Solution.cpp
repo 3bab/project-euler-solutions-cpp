@@ -14,8 +14,8 @@ int main() {
     unsigned multiplierA = 0;
     unsigned multiplierB = 0;
     std::chrono::steady_clock::time_point begin = std::chrono::steady_clock::now();
-    for (int i = 100L; i < 10000; i++) {
-        for (int j = 100L; j < 10000; j++) {
+    for (int i = 100L; i < 1000; i++) {
+        for (int j = 100L; j < 1000; j++) {
             if (isPalindrome(i * j) && i * j > maxPalindrome) {
                 multiplierA = i;
                 multiplierB = j;
